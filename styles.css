@@ -11,27 +11,27 @@
 }
 
 body {
-  margin: auto 4.2rem;
+  margin: auto;
   width: 100%;
   max-width: 1200px;
   background-color: #353543;
   padding-top: 4.2rem;
 }
 
-header {
-  background-color: blueviolet;
+.header-top {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2.9rem;
 }
 
-.header-left {
-  background-color: blueviolet;
+.header-top-left {
   width: 50%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 11.967rem;
 }
+
 .logo {
   display: flex;
   font-family: "Montserrat";
@@ -55,9 +55,98 @@ header {
   color: #d1d1db;
 }
 
-.header-right {
+.menu-nav-header-home {
+  font-weight: 700;
+  color: #ebebeb;
+}
+
+.header-top-right {
   width: 50%;
   display: flex;
   justify-content: flex-end;
   gap: 4.2rem;
+}
+
+.header-main {
+  display: flex;
+}
+
+.header-presentation {
+  width: 614px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.im {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 6.4rem;
+  line-height: 7.8rem;
+  color: #9b9bb1;
+}
+
+.name {
+  width: 614px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 8.4rem;
+  line-height: 10.2rem;
+
+  z-index: 0; /*descobri esse jeito pra deixar o nome por cima do circulo mas nao entendi o pq*/
+  color: #ffffff;
+}
+
+.yellow-line {
+  width: 200px;
+  height: 6px;
+  background: #ffba1a;
+}
+
+.personal-description {
+  width: 285px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  color: #d1d1db;
+}
+
+.header-circle {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #2d2d39;
+  margin-left: -31.4rem;
+}
+
+.header-services {
+  width: 387px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: -8.7rem;
+}
+
+.services {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.3rem;
+  color: #ebebeb;
+}
+
+.text-services {
+  width: 387px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 37px;
+  color: #d1d1db;
 }
