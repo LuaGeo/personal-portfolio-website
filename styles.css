@@ -139,6 +139,7 @@ body {
   font-size: 2rem;
   line-height: 2.3rem;
   color: #ebebeb;
+  margin-bottom: 1.6rem;
 }
 
 .text-services {
@@ -149,4 +150,20 @@ body {
   font-size: 2.4rem;
   line-height: 37px;
   color: #d1d1db;
+  margin-bottom: 2.4rem;
+}
+
+.show-more {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffba1a;
+  text-decoration: none;
+}
+
+.show-more-and-arrow {
+  display: flex;
+  gap: 1.6rem;
 }
