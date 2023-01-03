@@ -69,6 +69,7 @@ body {
 
 .header-main {
   display: flex;
+  margin-bottom: 1.9rem;
 }
 
 .header-presentation {
@@ -97,12 +98,14 @@ body {
 
   z-index: 0; /*descobri esse jeito pra deixar o nome por cima do circulo mas nao entendi o pq*/
   color: #ffffff;
+  margin-bottom: 2.4rem;
 }
 
 .yellow-line {
   width: 200px;
   height: 6px;
   background: #ffba1a;
+  margin-bottom: 3.2rem;
 }
 
 .personal-description {
@@ -166,4 +169,30 @@ body {
 .show-more-and-arrow {
   display: flex;
   gap: 1.6rem;
+  margin-bottom: 5.2rem;
+}
+
+.icons-header-services {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.header-rectangle-container {
+  width: 1200px;
+  height: 162px;
+  background: #3f3f50;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-rectangle-item {
+  width: 244px;
+  height: 78px;
+  background: #353543;
+}
+
+.block-what-can-i-do {
+  height: 400px;
+  background: #282833;
 }
